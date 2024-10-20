@@ -9,8 +9,8 @@ The tools used in this repository are Selenium and BeautifulSoup. The website fr
 ![img1](https://github.com/user-attachments/assets/180c76e1-c693-4a9c-84ac-fa268c666d4c)
 
 # Commands
-## For Web Crawling using Selenium:<br />
+### For Web Crawling using Selenium:<br />
 python selenium_crawler.py --category (category of object of interest) --save_dir (directory where to save models)
 
-## For Web Crawling using BeautifulSoup:<br />
+### For Web Crawling using BeautifulSoup:<br />
 python b4_crawler.py --category (category of object of interest) --save_dir (directory where to save models)
