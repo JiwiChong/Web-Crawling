@@ -8,6 +8,13 @@ The tools used in this repository are Selenium and BeautifulSoup. The website fr
 
 ![img1](https://github.com/user-attachments/assets/180c76e1-c693-4a9c-84ac-fa268c666d4c)
 
+The website is severely plagued with Ads that pop from several sides of the site and this can
+be very disturbing to download the models manually. Hence, it is convenient to utilize the web crawling
+method to extract the models automatically given the category of the model one desires to get.
+The categories are not limited to "Vehicle", "Architecture", "Weaponds", etc. 
+
+
+
 # Commands
 ### For Web Crawling using Selenium:<br />
 python selenium_crawler.py --category (category of object of interest) --save_dir (directory where to save models)
