@@ -6,14 +6,14 @@ that extract 3D models for 3D Computer Vision research works, are provided.
 The tools used in this repository are Selenium and BeautifulSoup. The website from which the
 3D models are extracted from is: https://open3dmodel.com/
 
-![img1](https://github.com/user-attachments/assets/180c76e1-c693-4a9c-84ac-fa268c666d4c)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/180c76e1-c693-4a9c-84ac-fa268c666d4c" width=80% height=80%>
+</div><br />
 
 The website is severely plagued with Ads that pop from several sides of the site and this can
 be very disturbing to download the models manually. Hence, it is convenient to utilize the web crawling
 method to extract the models automatically given the category of the model one desires to get.
 The categories are not limited to "Vehicle", "Architecture", "Weaponds", etc. 
-
-
 
 # Commands
 ### For Web Crawling using Selenium:<br />
