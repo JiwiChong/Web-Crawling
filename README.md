@@ -7,7 +7,7 @@ The tools used in this repository are Selenium and BeautifulSoup. The website fr
 3D models are extracted from is: https://open3dmodel.com/
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/180c76e1-c693-4a9c-84ac-fa268c666d4c" width=80% height=80%>
+<img src="https://github.com/user-attachments/assets/180c76e1-c693-4a9c-84ac-fa268c666d4c" width=80% height=95%>
 </div><br />
 
 The website is severely plagued with Ads that pop from several sides of the site and this can
@@ -17,7 +17,11 @@ The categories are not limited to "Vehicle", "Architecture", "Weaponds", etc.
 
 # Commands
 ### For Web Crawling using Selenium:<br />
+```python
 python selenium_crawler.py --category (category of object of interest) --save_dir (directory where to save models)
+```
 
 ### For Web Crawling using BeautifulSoup:<br />
+```python
 python b4_crawler.py --category (category of object of interest) --save_dir (directory where to save models)
+```
